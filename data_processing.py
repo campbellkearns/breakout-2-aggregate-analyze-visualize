@@ -1,21 +1,26 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
-df = pd.read_csv("temp_sales_data.csv")
+df = pd.read_csv("sales_data.csv")
 
-## DataFrame
+print("original data:")
 print(df.head())
-# print(df.info())
-# print(df.describe())
-df.rename(columns={"Amt": "Amount"}, inplace=True) 
-print(df.head())
+
+## cleaning data
+
+print("Missing Values:")
+print(df.isnull().sum())
+
+print("\n" + "="*50 + "\n")
 
 df = df.dropna(subset=["CustomerID"])
-print(df)
 
 df["Amount"].fillna(df["Amount"].mean(), inplace=True)
 
-df_cleaned = df
-print(df_cleaned)
+print(df)
+sales_by_region = df.groupby("Region")["Amount"].sum()
+print("\nSales by Region:")
+print(sales_by_region)
 
-
-
+plt.bar(sales_by_region.index, sales_by_region.values)
+plt.show()
