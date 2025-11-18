@@ -1,0 +1,11 @@
+SaleID,CustomerID,Product,Amount,Region,Date
+1,C001,Laptop,1200.0,North,2025-01-10
+2,C002,Mouse,25.5,South,2025-01-11
+3,,Keyboard,45.0,East,2025-01-12
+4,C003,Monitor,,West,01/13/2025
+5,C004,Headset,80.0,NORTH,2025-01-14
+6,,Webcam,,South,
+7,C002,Mousepad,12.0,east,2025-01-16
+8,C005,Laptop,$1300,West,2025-01-17
+9,C006,Monitor,250.0,North,2025-01-18
+10,C003,,180.0,South,2025-01-19

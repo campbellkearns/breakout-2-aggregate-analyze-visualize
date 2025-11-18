@@ -1,0 +1,21 @@
+SaleID,CustomerID,Product,Amount,Region,Date
+1,C001,Laptop,1200.0,North,2025-01-10
+2,C002,Mouse,25.5,South,2025-01-11
+3,,Keyboard,45.0,East,2025-01-12
+4,C003,Monitor,,West,2025-01-13
+5,C004,Headset,80.0,North,2025-01-14
+6,,Webcam,,South,2025-01-15
+7,C002,Mousepad,12.0,East,2025-01-16
+8,C005,Laptop,1300.0,West,2025-01-17
+9,C006,Monitor,250.0,North,2025-01-18
+10,C003,Docking Station,,South,2025-01-19
+11,C007,Keyboard,50.0,East,2025-02-01
+12,C008,Mouse,22.0,West,2025-02-03
+13,C001,Headset,85.0,North,2025-02-05
+14,C009,Laptop,1250.0,South,2025-02-08
+15,C004,Monitor,275.0,East,2025-02-12
+16,C010,Webcam,95.0,West,2025-02-15
+17,C002,Docking Station,180.0,North,2025-02-18
+18,C005,Mouse,28.0,South,2025-02-20
+19,C011,Laptop,1180.0,East,2025-03-02
+20,C003,Mousepad,15.0,West,2025-03-05
